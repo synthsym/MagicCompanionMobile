@@ -4,7 +4,7 @@
     <string name="app_name">Magic: The Companion</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_magic_companion">MagicCompanionActivity</string>
+    <string name="title_activity_magic_companion">Magic: The Companion</string>
     <string name="your_health">Your Health</string>
     <string name="undef">undefined</string>
     <string name="death_msg">You are dead.</string>
