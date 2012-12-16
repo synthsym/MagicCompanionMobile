@@ -30,8 +30,9 @@
         android:layout_alignBaseline="@+id/subHealth"
         android:layout_alignBottom="@+id/subHealth"
         android:layout_centerHorizontal="true"
+        android:onClick="resetHealth"
         android:text="Reset"
-        android:onClick="resetHealth" />
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/addHealth"
@@ -40,8 +41,9 @@
         android:layout_below="@+id/health"
         android:layout_marginTop="56dp"
         android:layout_toLeftOf="@+id/title"
+        android:onClick="addHealth"
         android:text="Add"
-        android:onClick="addHealth" />
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/subHealth"
@@ -50,7 +52,20 @@
         android:layout_alignBaseline="@+id/addHealth"
         android:layout_alignBottom="@+id/addHealth"
         android:layout_toRightOf="@+id/title"
+        android:onClick="subHealth"
         android:text="Subtract"
-        android:onClick="subHealth" />
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/death_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resetHealth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="@string/death_msg"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0F00"
+        android:textSize="35sp" />
 
 </RelativeLayout>

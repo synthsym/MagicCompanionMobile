@@ -7,5 +7,6 @@
     <string name="title_activity_magic_companion">MagicCompanionActivity</string>
     <string name="your_health">Your Health</string>
     <string name="undef">undefined</string>
+    <string name="death_msg">You are dead.</string>
 
 </resources>
