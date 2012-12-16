@@ -53,5 +53,6 @@ public class MagicCompanionActivity extends Activity {
 		health = 20;
 		healthText.setText(Integer.toString(health));
 		deathMsg.setVisibility(4);
+		subHealthBtn.setEnabled(true);
 	}
 }
